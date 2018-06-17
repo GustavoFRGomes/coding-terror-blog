@@ -13,7 +13,7 @@ const IndexPage = ({data}) => (
       <Link
        key = {post.node.id}
        to = {post.node.frontmatter.path}>
-          {post.node.frontmatter.title}
+          <p>{post.node.frontmatter.title}</p>
       </Link>
     ))}
   </div>
